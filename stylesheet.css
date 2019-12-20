@@ -1,0 +1,30 @@
+.grad {
+	background-image: linear-gradient(to right, #f5f5eb, #c8c8cd);
+	padding: 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 25;
+}
+
+.head {
+	color: #828282;
+	display: inline;
+	font-family: courier new;
+	font-weight: bold;
+	font-size: 50px;
+	margin: 10px;
+}
+
+.link {
+	float: right;
+	/*color: #7f7f7f;*/
+	color: #404040;
+	font-family: courier new;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 15px;
+	padding: 0px;
+}
+
