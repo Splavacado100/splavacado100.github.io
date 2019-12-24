@@ -1,16 +1,27 @@
 body {
 	background-image: url(back.png);
 	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 .grad {
 	background-image: linear-gradient(to right, #f5f5eb, #c8c8cd);
 	padding: 15px;
 	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
+	top: 0px;
+	left: 0px;
+	right: 0px;
 	z-index: 25;
+}
+
+.logo {
+	width: 527px;
+	height: 74px;
+	display: inline;
+	position: absolute;
+	top: 5px;
+	left: 0px;
 }
 
 .head {
@@ -19,7 +30,9 @@ body {
 	font-family: courier new;
 	font-weight: bold;
 	font-size: 50px;
-	margin: 10px;
+	margin: 0px;
+	position: absolute;
+	left: 90px;
 }
 
 .link {
