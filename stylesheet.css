@@ -1,11 +1,9 @@
 body {
-	background-image: url(back.png);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
+	/*background-color: #bfbfff;*/
+	background-image: linear-gradient(to right, #7f9faf, #8f8fdf);
 }
 
-.grad {
+div.grad {
 	background-image: linear-gradient(to right, #f5f5eb, #c8c8cd);
 	padding: 15px;
 	position: absolute;
@@ -15,7 +13,7 @@ body {
 	z-index: 25;
 }
 
-.logo {
+img.logo {
 	width: 527px;
 	height: 74px;
 	display: inline;
@@ -24,7 +22,7 @@ body {
 	left: 0px;
 }
 
-.head {
+p.head {
 	color: #828282;
 	display: inline;
 	font-family: courier new;
@@ -35,9 +33,22 @@ body {
 	left: 90px;
 }
 
-.link {
+a.link {
 	float: right;
-	/*color: #7f7f7f;*/
+	color: #404040;
+	font-family: courier new;
+	font-size: 20px;
+	text-decoration: none;
+	margin: 15px;
+	padding: 0px;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+span.select {
+	float: right;
 	color: #404040;
 	font-family: courier new;
 	font-weight: bold;
@@ -46,3 +57,25 @@ body {
 	padding: 0px;
 }
 
+div.blogblock {
+	background-color: #ffffff;
+	padding: 15px;
+	position: absolute;
+	left: 10px;
+	right: 10px;
+}
+
+p.bloghead {
+	margin: 0px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+p.blogdate {
+	margin: 0px;
+	font-size: 13px;
+}
+
+p.blogpost {
+	margin: 0px;
+}
