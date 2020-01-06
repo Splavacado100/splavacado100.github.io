@@ -1,12 +1,13 @@
 body {
-	/*background-color: #bfbfff;*/
 	background-image: linear-gradient(to right, #7f9faf, #8f8fdf);
+	background-attachment: fixed;
 }
 
 div.grad {
 	background-image: linear-gradient(to right, #f5f5eb, #c8c8cd);
 	padding: 15px;
-	position: absolute;
+	position: -webkit-sticky;
+	position: sticky;
 	top: 0px;
 	left: 0px;
 	right: 0px;
@@ -14,10 +15,10 @@ div.grad {
 }
 
 img.logo {
-	width: 527px;
-	height: 74px;
+	width: 100px;
+	height: 100px;
 	display: inline;
-	position: absolute;
+	position: relative;
 	top: 5px;
 	left: 0px;
 }
@@ -29,13 +30,13 @@ p.head {
 	font-weight: bold;
 	font-size: 50px;
 	margin: 0px;
-	position: absolute;
-	left: 90px;
+	position: relative;
+	left: 5px;
 }
 
 a.link {
 	float: right;
-	color: #404040;
+	color: #505050;
 	font-family: courier new;
 	font-size: 20px;
 	text-decoration: none;
@@ -49,7 +50,7 @@ a:hover {
 
 span.select {
 	float: right;
-	color: #404040;
+	color: #000000;
 	font-family: courier new;
 	font-weight: bold;
 	font-size: 20px;
@@ -60,9 +61,9 @@ span.select {
 div.blogblock {
 	background-color: #ffffff;
 	padding: 15px;
-	position: absolute;
-	left: 10px;
-	right: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 5px;
 }
 
 p.bloghead {
@@ -78,4 +79,5 @@ p.blogdate {
 
 p.blogpost {
 	margin: 0px;
+	overflow-wrap: break-word;
 }
